@@ -1,0 +1,5 @@
+<div class="container">
+  <button (click)="getPhoto()">GetAPhoto</button>
+
+  <img *ngIf="photoUrl" [src]="photoUrl" alt="photo" />
+</div>
